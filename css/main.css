@@ -501,7 +501,9 @@ section.active {
     background: url("../images/background.jpg");
 }
 
-
+.sm-logo {
+	display: none;
+}
 
 
 .home .home-img:after {
@@ -1282,6 +1284,9 @@ section.active {
 @media (min-width: 992px) and (max-width: 1199.98px) {
     
     /*=========== Home ============*/
+    .sm-logo {
+        display: none;
+    }
 	.home .home-intro .home-text p {
 		font-size: 18px;
 		letter-spacing: 0;
@@ -1339,6 +1344,9 @@ section.active {
 @media (min-width: 768px) and (max-width: 991.98px) {
     
     /*=========== Home ============*/
+    .sm-logo {
+        display: none;
+    }
 	.home {
 		overflow-y: auto;
 	}
@@ -1503,6 +1511,24 @@ section.active {
     }
     
     /*=========== Home ============*/
+    .sm-logo {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 800;
+        color: transparent;
+        -webkit-text-stroke: 1px #fff;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+
 	.home .home-intro .home-info {
 		padding: 100px 0;
 	}
