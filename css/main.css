@@ -1629,3 +1629,11 @@ section.active {
         font-size: 34px;
 	}
 }
+
+
+
+.portfolio.container .filteredOut {
+    /* height: 0!important; */
+    /* display: none!important; */
+    display: none;
+}
