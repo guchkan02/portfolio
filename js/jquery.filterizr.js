@@ -756,15 +756,15 @@
         */
         _getCollectionByFilter: function(filter) {
             var self = this;
-            const firstTwoFromAllCategory = [];
+            const firstOneFromAllCategory = [];
             self._subArrays.forEach(subArray => {
-                for (let index=0; index < 2; index++) {
+                for (let index=0; index < 1; index++) {
                     if (subArray[index]) {
-                        firstTwoFromAllCategory.push(subArray[index])
+                        firstOneFromAllCategory.push(subArray[index])
                     }
                 }
             })
-            return filter === 'all' ? firstTwoFromAllCategory : self._subArrays[filter - 1];
+            return filter === 'all' ? firstOneFromAllCategory : self._subArrays[filter - 1];
         },
 
         /**
