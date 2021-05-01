@@ -39,8 +39,7 @@ body {
     margin-right: 0;
 }
 
-.page-title .content ul li:first-child:after,
-.page-title .content ul li.two:after {
+.page-title .content ul li:first-child:after {
     content: "\f101";
     font-family: "FontAwesome";
     position: absolute;

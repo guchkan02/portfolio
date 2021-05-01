@@ -982,6 +982,7 @@ section.active {
     font-size: 16px;
     font-weight: 600;
     letter-spacing: .5px;
+    line-height: 25px;
     text-align: left;
     visibility: hidden;
     opacity: 0;
@@ -1093,7 +1094,8 @@ section.active {
 }
 
 .blog .post .post-content .post-title h4:hover {
-    color: #c79864;
+    color: #f04e3c;
+    letter-spacing: 0.7px;
 }
 
 .blog .post .post-content .post-text p {
@@ -1110,10 +1112,10 @@ section.active {
 .blog .post .post-content .post-date {
     position: absolute;
     top: -78px;
-    right: -1px;
+    right: -2px;
     padding: 10px;
     text-align: center;
-    background-color: #c79864;
+    background-color: #f04e3c;
     border-radius: 4px 0 0 4px;
     letter-spacing: 1px;
     color: #fff;
@@ -1130,14 +1132,14 @@ section.active {
     font-weight: 600;
     padding: 10px 18px;
     background-color: transparent;
-    color: #c79864;
-    border: 1px solid #c79864;
+    color: #f04e3c;
+    border: 1px solid #f04e3c;
     border-radius: 4px;
 	margin-top: 15px;
 }
 
 .blog .post .post-content .post-more:hover {
-	background-color: #c79864;
+	background-color: #f04e3c;
     color: #fff;
 }
 
