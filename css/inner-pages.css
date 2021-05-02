@@ -8,8 +8,7 @@ body {
 .page-title {
 	background: url('../images/bg-over.png') repeat #2a2a2e;
 	padding-top: 140px;
-    padding-bottom: 140px;
-    text-align: center;
+    text-align: left;
     overflow: hidden;
 }
 
@@ -20,7 +19,23 @@ body {
     letter-spacing: .7px;
     font-size: 52px;
     text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.page-title .content h5 {
+    color: #fff;
+    font-weight: normal;
+    letter-spacing: .7px;
+    font-size: 18px;
+    font-style: italic;
     margin-bottom: 35px;
+}
+
+.page-title .content h2:hover{
+    color: #fff;
+    -webkit-text-stroke: 1px #fff;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
 
 .page-title .content ul li {
