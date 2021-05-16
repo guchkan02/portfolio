@@ -2,11 +2,11 @@
    Global Style
 -----------------------------------------*/
 body {
-	background: #2a2a2e;
+	background: #141415
 }
 
 .page-title {
-	background: url('../images/bg-over.png') repeat #2a2a2e;
+	background: #141415;
 	padding-top: 140px;
     text-align: left;
     overflow: hidden;
@@ -19,16 +19,16 @@ body {
     letter-spacing: .7px;
     font-size: 52px;
     text-transform: uppercase;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .page-title .content h5 {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.616);
     font-weight: normal;
     letter-spacing: .7px;
     font-size: 18px;
     font-style: italic;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
 }
 
 .page-title .content h2:hover{
@@ -88,6 +88,14 @@ body {
    Blog Single
 -----------------------------------------*/
 
+.blog .post .post-content {
+	position: relative;
+    padding: 30px 0;
+    background:  #141414;
+    border-top: 2px solid #f04e3c;
+    border-radius: none;
+}
+
 .blog .post .post-content .post-text p:last-of-type {
     border-top: none;
 	padding-top: 0;
@@ -95,7 +103,8 @@ body {
 }
 
 .blog .post .post-content .more-details {
-    padding: 0 20px;
+    padding: 0;
+    padding-top: 50px;
 }
 
 .blog .post .post-content .more-details p {
@@ -103,8 +112,58 @@ body {
     font-weight: 400;
     margin-bottom: 15px;
     color: #fbf4e0;
-    font-size: 15px;
+    font-size: 22px;
 }
+.blog .post .post-content .more-details span {
+    line-height: 1.8;
+    font-weight: 200;
+    margin-bottom: 15px;
+    color: #fbf4e0;
+    font-size: 18px;
+}
+.section-border{
+    padding-bottom: 40px;
+    border-bottom: 3px solid #f04e3c
+    
+}
+
+.blog .post .post-content .more-details .item-right {
+    
+    border-radius: 4px;
+    
+    align-items: end;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+.blog .post .post-content .more-details .item-left {
+    
+    border-radius: 4px;
+    
+    align-items: start;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+.blog .post .post-content .more-details .item-center {
+    
+    border-radius: 4px;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.blog .post .post-content .more-details .image {
+    width: 350px;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
 
 .blog .post .post-content .more-details blockquote {
 	position: relative;
