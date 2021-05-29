@@ -684,6 +684,11 @@ section.active {
     font-weight: 600;
 }
 
+.profile-link :hover{
+    color: #f04e3c !important;
+    letter-spacing: 1px;
+}
+
 /* --------------------------------------
    7. Services
 -----------------------------------------*/
