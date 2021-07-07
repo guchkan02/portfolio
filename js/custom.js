@@ -37,10 +37,16 @@ $(function () {
     /*========== Smooth Scroll  ==========*/
     $(".vertical-nav .mini-menu > ul li a").on("click", function (e) {
         e.preventDefault();
+        console.log('this :>> ', this);
 		var selector = $(this);
         $(".vertical-nav").removeClass('menu-active');
 		$(selector.attr('href')).addClass('active').siblings("section").removeClass('active');
     });
+
+    /*===================== Hire me button connector ==================*/
+    $("#hireMe").on("click", function (e) {
+        $("#contact").addClass('active').siblings("section").removeClass('active');
+    })
 	
 	/*========== Skills Progress ==========*/
 	function skillsPogress() {
