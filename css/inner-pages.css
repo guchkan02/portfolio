@@ -155,7 +155,7 @@ body {
     text-align: center;
 }
 .blog .post .post-content .more-details .image {
-    width: 350px;
+    max-width: 350px;
     border-radius: 4px;
     align-items: center;
     display: flex;
